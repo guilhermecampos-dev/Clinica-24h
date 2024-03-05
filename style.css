@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.mascara{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: radial-gradient(circle, rgba(0,0,0,0.7651435574229692) 0%, rgba(0,0,0,0.7707457983193278) 100%);
+    
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    padding: 20px ;
+
+}
+
+.header a{
+    font-size: 17px;
+    font-weight: bolder;
+    color: #03565a;
+    text-shadow: 2px 0px 10px #033133;
+    cursor: pointer;
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+.header  a:hover{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 0px 10px #033133;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+.header img{
+    height: 50px;
+    margin-left: 60px;
+}
+
+.geral{
+    width: 100vw;
+}
+
+.cabeça{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    padding: 50px; 
+    
+    
+}
+
+.logo{
+    height: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.top{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    
+    
+}
+
+.cuidado{
+    height: 550px;
+}
+
+h1{
+    font-size: 65px;
+    font-family: 'Protest Riot', sans-serif;
+    color: rgb(10, 19, 16);
+    text-shadow: 5px 10px 30px rgb(15, 175, 122);
+}
+
+h2{
+    font-size: 32px;  
+    font-family: 'Protest Riot', sans-serif;  
+    text-shadow: 1px 0px 10px rgb(15, 175, 122);
+    color: rgb(10, 19, 16);
+}
+
+p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+    text-align: justify;
+    word-spacing: 5px;
+    font-family: 'Protest Riot', sans-serif;
+}
+
+video{
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.video{
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+.linkwpp img{
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+button {
+    
+    color: white;
+    background-color: #033133;
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 400px;
+
+}
+
+button :hover{
+    padding: 12px;
+    width: 500px;
+}
+
+
+input{
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-left: 5px;
+}
+
+textarea{
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.enviarform {
+    color: white;
+    background-color: #033133;
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 43px;
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(2, 63, 80, 0.801);
+    border-radius: 10px;
+    padding: 20px;
+    height: 400px;
+    width: 350px;
+    gap: 5px;
+    position: fixed;
+    top: 30%;
+    margin-left: -346px;
+    
+}
+
+@media (max-width: 1300px){
+    .logo{
+        display: none;
+    }
+
+    .header a{
+        display: flex;
+        justify-content: center;
+        margin-left: 10px;
+    }
+
+    .cabeça{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+   
+    }
+        h1{
+            font-size: 50px;   
+        }
+       h2{
+        display: none;
+       }
+        p{
+         display: none;
+        }
+    
+    
+}
+.top{
+
+}
+
